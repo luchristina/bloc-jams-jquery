@@ -51,14 +51,6 @@
   display: none;
 }
 
-#play-pause[playState="paused"] .ion-play {
-  display: block;
-}
-
-#play-pause[playState="paused"] .ion-pause {
-  display:none;
-}
-
 #time-control input {
   float: left;
   width: calc(100% - 80px);
