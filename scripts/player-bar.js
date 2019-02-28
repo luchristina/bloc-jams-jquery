@@ -16,7 +16,7 @@
   });
 
   $('button#previous').on('click', function()  {
-    if (player.playState !== 'paused') { return; }
+    if (player.playState !== 'playing') { return; }
 
     const currentSongIndex = album.songs.indexOf(player.currentlyPlaying);
     const prevSongIndex = currentSongIndex - 1;
